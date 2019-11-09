@@ -287,3 +287,15 @@ footer nav a {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     background-color: #F5F5F5;
 }
+
+.coming-soon {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 50%;
+    margin-bottom: 50%;
+}
+
+.coming-soon h1 {
+    font-size: 80px;
+}
