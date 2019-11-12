@@ -66,6 +66,51 @@ p {
     line-height: 1.4;
 }
 
+a {
+    text-decoration: none;
+    color: #333;
+
+}
+
+.top-container {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 1%;
+
+}
+
+.navi-bar-container {
+    display: flex;
+}
+
+.navi-bar-top {
+    box-sizing: border-box;
+    align-self: flex-end;
+    flex: 1;
+}
+
+.navi-bar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navi-bar a {
+    text-decoration: none;
+    color: #333;
+}
+
+.navi-bar-logo {
+    justify-content: flex-start;
+}
+
+.top-container-img {
+    justify-content: center;
+    margin: 5% 0 3%;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -104,12 +149,44 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/*          boxes           */
+div.box:nth-child(1) {
+    background: teal;
+}
+div.box:nth-child(2) {
+    background: gold;
+}
+div.box:nth-child(3) {
+    background: cadetblue;
+}
+div.box:nth-child(4) {
+    background: coral;
+}
+div.box:nth-child(5) {
+    background: crimson;
+}
+div.box:nth-child(6) {
+    background: forestgreen;
+}
+div.box:nth-child(7) {
+    background: darkorchid;
+}
+div.box:nth-child(8) {
+    background: hotpink;
+}
+div.box:nth-child(9) {
+    background: indigo;
+}
+div.box:nth-child(10) {
+    background: dodgerblue;
 }
 
 .bottom-content {
@@ -143,4 +220,82 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* ------------- ABOUT CSS ------------- */
+
+.about-top-content {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 3%;
+}
+
+.about-page-text {
+    flex-flow: column nowrap;
+}
+
+.about-bottom-content {
+    display: flex;
+    width: 96%;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.about-bottom-text {
+    flex-flow: column nowrap;
+}
+
+.about-content-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    border-top: #333 dotted 2px;
+}
+
+.about-content-column {
+    flex-flow: column wrap;
+    border-bottom: #333 dotted 2px; 
+    padding: 4% 0 2%;
+    margin-bottom: 2%; 
+}
+
+.about-content-text {
+    width: 370px;  
+}
+
+.about-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #333 solid 2px;
+    height: 35px;
+    width: 130px;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-top: 5%;
+    background-color: #ffffff;
+}
+
+.about-button:hover {
+    transition-duration: 0.4s;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: #F5F5F5;
+}
+
+.coming-soon {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 50%;
+    margin-bottom: 50%;
+}
+
+.coming-soon h1 {
+    font-size: 80px;
 }
